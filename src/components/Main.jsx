@@ -1,16 +1,20 @@
 import React, { useState, useEffect, useRef } from 'react';
 
-import Nav from 'components/Nav';
-import Footer from 'components/Footer';
+import Nav from './Nav';
+import Footer from './Footer';
 
-import 'components/Main.css';
+import ToolCards from './ToolCards';
+import './Main.css';
+
+import { tools } from '../assets/tools'
 
 export default function Main() {
     return <>
         <Nav/>
-        <main>
-
-        </main>
+        <div className='main' role='main'>
+            <h1>Tools title placeholder</h1>
+            <ToolCards tools={tools}/>
+        </div>
         <Footer/>
     </>
 }
