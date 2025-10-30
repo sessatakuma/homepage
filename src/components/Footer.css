@@ -1,13 +1,13 @@
 .footer {
     width: 100vw;
-    height: 10vh;
-    background-color: var(--color-primary);
+    height: 8rem;
+    background-color: var(--clr-primary);
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     gap: 0rem;
-    color: var(--color-secondary);
+    color: var(--clr-secondary);
 }
 
 .footer a {
@@ -16,6 +16,6 @@
     transition: .2s ease;
     &:hover {
         scale: 1.1;
-        color: var(--color-secondary);
+        color: var(--clr-secondary);
     }
 }
