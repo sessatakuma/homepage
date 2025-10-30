@@ -11,12 +11,6 @@ module.exports = {
 
   resolve: {
     extensions: ['.js', '.jsx'], 
-    alias: {
-      api: path.resolve(srcPath, 'api'),
-      assets: path.resolve(srcPath, 'assets'),
-      components: path.resolve(srcPath, 'components'),
-      utils: path.resolve(srcPath, 'utils'),
-    },
   },
 
   entry: {
