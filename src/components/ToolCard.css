@@ -13,6 +13,8 @@
     
     text-wrap: pretty;
 
+    cursor: pointer;
+
     &:hover {
         text-decoration: none;
         color: var(--clr-secondary);
