@@ -11,6 +11,10 @@ module.exports = {
 
   resolve: {
     extensions: ['.js', '.jsx'], 
+    alias: {
+        components: path.resolve(srcPath, 'components'),
+        utils: path.resolve(srcPath, 'utils'),
+    },
   },
 
   entry: {
